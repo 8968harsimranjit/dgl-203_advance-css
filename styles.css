@@ -1,3 +1,11 @@
+/*
+midnight green:#0B3C49;
+Indian yellow:#DB9D47;
+lavender blush:#FAE8EB;
+text-color:#343434;
+color palette from:https://coolors.co/0b3c49-db9d47-fae8eb
+*/
+
 html {
     box-sizing: border-box;
   }
@@ -17,7 +25,7 @@ img{
     width:300px;
 }
 a{
-    color:#FFE66D;
+    color:#FAE8EB;
 }
 h1{
     font-family: 'Caveat', cursive;
@@ -28,7 +36,6 @@ h1{
 }
 h2{
     margin:0;
-    font-family: 'Caveat', cursive;
     font-size: 40px;
     font-weight: 400;
 }
@@ -58,14 +65,14 @@ h2{
 /*-------------------profile------------------------------------*/
 
 header{
-    background: #2F3061;
-    color: whitesmoke;
+    background: #0B3C49;
+    color: #FAE8EB;
 }
 
 /*------------------project----------------------------------------------*/
 
 .project{
-    background: #F7FFF7;
+    background: #FAE8EB;
 }
 .project-item{
    overflow: hidden;
@@ -76,14 +83,14 @@ header{
 
 /*---------------work experience--------------------------------------*/
 
-.work-experience{
-    background: #A1C6D7;
+.software{
+    background: #DB9D47;
 }
 
 /*-------------------education---------------------------------------------*/
 
 .education{
-    background-image:url("placeholder images/joanna-kosinska-unsplash.jpg");
+    background-image:url("placeholder images/sharon-mccutcheon-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top right;
@@ -96,8 +103,8 @@ header{
 /*----------------------footer-----------------------------------------*/
 
 .footer{
-    background: #343434;
-    color: #F7FFF7;
+    background: #0B3C49;
+    color: #FAE8EB;
 }
 .contact-list{
     list-style-type:none;
