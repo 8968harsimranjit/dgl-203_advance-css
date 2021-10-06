@@ -130,6 +130,14 @@ header{
     background: #DB9D47;
 }
 
+/*--------------------software------------------------------------------*/
+.grid-items img{
+    width:150px;
+    height: 150px;
+    padding:20px;
+    display:inline-block;
+}
+
 /*-------------------education---------------------------------------------*/
 
 .education{
@@ -177,6 +185,10 @@ header{
     display:flex;
     justify-content: center;
     }
+    .flex-container{
+        display:flex;
+    }
+    
 }
 @media screen and(max-width:749px){
     h1{
@@ -186,5 +198,11 @@ header{
     }
     .contact-list a{
         padding: 5px;
+    }
+    .grid-items img{
+        width:90px;
+        height: 90px;
+        padding:10px;
+        display:inline-block;
     }
 }
